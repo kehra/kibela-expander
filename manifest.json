@@ -1,0 +1,13 @@
+{
+  "name": "Kibela Expander",
+  "description" : "Expand the article area of Kibela.",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [ "https://*.kibe.la/@*", "https://*.kibe.la/wiki*" ],
+      "run_at" : "document_end",
+      "js": [ "script.js" ]
+    }
+  ],
+  "manifest_version": 2
+}
