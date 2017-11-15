@@ -2,6 +2,7 @@ let main = document.getElementById("main");
 if (main) {
   main.style.width = "90%";
   main.style.minWidth = "1180px";
+  main.style.maxWidth = "initial";
 }
 let articles = document.getElementsByClassName("l-doubleColumn-main");
 if (articles.length > 0) {
